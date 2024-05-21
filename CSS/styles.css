@@ -1,28 +1,71 @@
 body{
-    margin: 0px;
-}
-.top{
-    background-color: #76ABAE;
-    height: 700px;
-    width: 1550px;
-    position: relative;
-       
-}
-.inner{
-    position: absolute;
-    left: 40%;
-    top: 20%;
-}
-.first{
-    align-items: center;
-    border-radius: 20px;
-}
-
-.text{
-    position: absolute;
-    margin-top: 450px;
-    margin-left: 10px;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
+    margin: 0rem;
+ }
+ .top{
+     background-color: #76ABAE;
+     height: 43rem;
+     width: 95.3rem;
+     position: relative;
+     margin: auto; 
+ }
+ .inner{
+     position: absolute;
+     left: 40rem;
+     top: 9rem;
+    margin: auto;
+ }
+ .first{
+     align-items: center;
+     border-radius: 1.25rem;
+ }
+ 
+ .text{
+     position: absolute;
+     margin-top: 28.12rem;
+     margin-left: 0.62rem;
+     text-align: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .special_img{
+ height: 10.8rem;
+ margin-right: 0.6rem;
+ float: inline-end;
+ }
+ 
+ .special{
+     line-height: 1.5rem;
+     background-color: #EEF5FF;
+     padding: 1rem 0 1rem 0;
+ }
+ .goal_img{
+     height: 15.8rem;
+     margin-left: 0.6rem;
+     float: inline-end;
+ }
+ 
+ .goal{
+     line-height: 1.5rem;
+     background-color: #BED7DC;
+     padding: 1rem 0 1rem 0;
+ }
+ 
+ .service{
+     line-height: 1.5rem;
+     background-color: #EEEEEE;
+     padding: 1rem 0 1rem 0;
+     
+ }
+ 
+ .ser_img{
+     height: 5.5rem;
+     margin-left: 0.6rem;
+     float: inline-start;
+ }
+ 
+ .tex{
+     margin-left: 18.5rem;
+ }
+ 
+ 
+ 

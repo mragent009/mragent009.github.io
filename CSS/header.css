@@ -1,41 +1,62 @@
 .header{
-background-image: linear-gradient(to right, #6DC5D1, #7469B6);
-height: 45px;
-width: 1550px;
-display: flex;
-}
-.logo{
-object-fit: cover;
-margin-right: 5px;
-margin-left: 10px;
-}
-.dd-toggle:nth-of-type(2){
-    margin-left: auto;
-}
-button{
-    background-color: initial;
-    border: initial;
-}
-.calc{
-    height: 40px;
-    width: 35px;
-}
-.search{
-    height: 40px;
-    width: 35px;
-    margin-right: 10px;
-}
-.dd-toggle{
-    color: rgba(255, 255,255,0.7);
-    padding: 0 13px;
-    cursor: pointer;
-    transition: color 0.4s, background-color ;
-}
-.dd-toggle:hover{
-color: #fff;
-background-color: rgba(255,255,255,0.07);
-}
-.dd-toogle:last-child{
+    background-image: linear-gradient(to right, #6DC5D1, #7469B6);
+    height: 2.8rem;
+    width: 95.3rem;
     display: flex;
-    align-items: center;
-}
+    margin: auto;
+    }
+    .logo{
+    object-fit: cover;
+    margin-right: 0.3rem;
+    margin-left: 1.6rem;
+    }
+    .dd-toggle:nth-of-type(2){
+        margin-left: auto;
+    }
+    button{
+        background-color: initial;
+        border: initial;
+    }
+    .calc{
+        height: 2.5rem;
+        width: 2.1rem;
+    }
+    .search{
+        height: 2.5rem;
+        width: 2.1rem;
+        margin-right: 1.6rem;
+    }
+    .dd-toggle{
+        color: rgba(255, 255,255,0.7);
+        padding: 0 0.8rem;
+        cursor: pointer;
+        transition: color 0.4s, background-color ;
+    }
+    .dd-toggle:hover{
+    color: #fff;
+    background-color: rgba(255,255,255,0.07);
+    }
+    .dd-toogle:last-child{
+        display: flex;
+        align-items: center;
+    }
+    
+    .foot{
+    background-color: #524C42;
+    height: 7rem;
+    width: 95.3rem;
+    display: flex;
+    padding: 1.56rem 0 0.62rem;
+    }
+    
+    .lik{
+        color: #619d0d;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        padding: 10px 20px;
+    
+    }
+    
+    .lik:hover{
+       color: #EAF6F6;    
+    }
