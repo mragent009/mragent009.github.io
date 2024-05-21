@@ -1,7 +1,6 @@
 .header{
     background-image: linear-gradient(to right, #6DC5D1, #7469B6);
     height: 2.8rem;
-    width: 95.3rem;
     display: flex;
     margin: auto;
     }
@@ -44,18 +43,17 @@
     .foot{
     background-color: #524C42;
     height: 7rem;
-    width: 95.3rem;
     display: flex;
     justify-content: center;
     padding: 1.56rem 0 0.62rem;
+    margin: auto;
+    gap: 2rem;
     }
     
     .lik{
         color: #619d0d;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-decoration: none;
-        padding: 10px 20px;
-    
+        text-decoration: none; 
     }
     
     .lik:hover{

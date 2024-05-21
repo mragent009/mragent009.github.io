@@ -4,12 +4,12 @@ body{
  .top{
      background-color: #76ABAE;
      height: 43rem;
-     width: 95.3rem;
-     position: relative;
      margin: auto; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
  .inner{
-     position: absolute;
      left: 40rem;
      top: 9rem;
     margin: auto;
